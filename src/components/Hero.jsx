@@ -1,5 +1,9 @@
 const Hero = () => {
-  return <div>Hero</div>;
+  return (
+    <section className="max-width padding-x ">
+      <h1>Hero</h1>
+    </section>
+  );
 };
 
 export default Hero;

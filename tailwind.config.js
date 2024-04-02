@@ -14,9 +14,17 @@ export default {
       },
       colors: {
         primary: {
-          DEFAULT: "#FFFFFF",
+          DEFAULT: "#faf5ff",
         },
+        secondary: "#8176AF",
+        light: "#C0B7E8",
         bgColor: "#343045",
+      },
+      backgroundImage: {
+        "gradient-radial":
+          "radial-gradient(circle, rgba(58, 52, 86, 1) 34%,, rgba(33, 30, 46, 1) 63%",
+        "gradient-linear":
+          "linear-gradient(125deg, rgba(129, 118, 175, 1) 35%,, rgba(192, 183, 232, 1) 74%",
       },
     },
   },
