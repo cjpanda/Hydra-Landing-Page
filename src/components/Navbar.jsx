@@ -36,7 +36,7 @@ const Navbar = () => {
     <header
       className={`${
         header ? "bg-bgColor py-5" : "bg-bgColor py-10"
-      } w-full mx-auto transition-all duration-300`}
+      } fixed w-full mx-auto transition-all duration-300`}
     >
       <div className="xl:container mx-auto flex flex-col xl:flex-row xl:items-center xl:justify-between">
         {/* Logo */}
@@ -67,7 +67,7 @@ const Navbar = () => {
             nav
               ? "max-h-max py-8 px-6 xl:py-0 xl:px-0 "
               : "max-h-0 xl:max-h-max "
-          }flex flex-col w-full xl:bg-transparent gap-y-6 overflow-hidden text-sm font-bold xl:font-medium xl:flex-row xl:w-max xl:gap-x-8 xl:h-max xl:pb-0 transition-all duration-150 text-center xl:text-left  xl:text-[15px] xl:normal-case`}
+          }flex flex-col w-full xl:bg-transparent gap-y-6 overflow-hidden text-sm font-bold xl:font-semibold xl:flex-row xl:w-max xl:gap-x-8 xl:h-max xl:pb-0 transition-all duration-150 text-center xl:text-left  xl:text-[13px] xl:normal-case`}
         >
           <Link
             className="cursor-pointer uppercase hover:text-secondary"
@@ -121,7 +121,7 @@ const Navbar = () => {
             <button className="border-2  bg-gradient-linear uppercase px-8 py-4 rounded-full text-sm hover:border-secondary hover:text-secondary">
               Contact Us
             </button>
-            <button className="bg-gradient-to-r from-secondary to-light uppercase text-sm px-8 py-4 rounded-full text-bgColor hover:text-white">
+            <button className="bg-gradient-to-r from-secondary to-light uppercase text-sm px-8 py-4 rounded-full text-bgColor hover:text-white ">
               Join Hydra
             </button>
           </div>
