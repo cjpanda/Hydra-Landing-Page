@@ -7,6 +7,9 @@ import About from "./About";
 import ContactUs from "./ContactUs";
 import Footer from "./Footer";
 import Howto from "./Howto";
+import ServiceCard from "./ServiceCard";
+import ServiceCardMobile from "./ServiceCardMobile";
+import FeatureMobile from "./FeatureMobile";
 
 export {
   Hero,
@@ -18,4 +21,7 @@ export {
   ContactUs,
   Footer,
   Howto,
+  ServiceCard,
+  ServiceCardMobile,
+  FeatureMobile,
 };

@@ -1,7 +1,12 @@
 import arrowButton from "../assets/arrowRight.png";
 import heroImage from "../assets/hero-image.png";
-import Feature from "./Feature";
+import { Feature, FeatureMobile } from "./index";
+import { useMediaQuery } from "react-responsive";
+
 const Hero = () => {
+  const isDesktop = useMediaQuery({ minWidth: 992 }); // xl and lg
+  const isMobile = useMediaQuery({ maxWidth: 991 }); // md and sm
+
   return (
     <section className="max-width padding-x pt-40" id="home">
       {/* Hero Container */}
@@ -37,7 +42,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <Feature />
+      {isDesktop && <Feature />}
+      {isMobile && <FeatureMobile />}
     </section>
   );
 };

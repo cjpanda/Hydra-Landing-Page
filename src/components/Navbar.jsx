@@ -36,7 +36,7 @@ const Navbar = () => {
     <header
       className={`${
         header ? "bg-bgColor py-5" : "bg-bgColor py-10"
-      } fixed w-full mx-auto transition-all duration-300`}
+      } fixed z-50 w-full transition-all duration-300`}
     >
       <div className="xl:container mx-auto flex flex-col xl:flex-row xl:items-center xl:justify-between">
         {/* Logo */}
@@ -67,7 +67,7 @@ const Navbar = () => {
             nav
               ? "max-h-max py-8 px-6 xl:py-0 xl:px-0 "
               : "max-h-0 xl:max-h-max "
-          }flex flex-col w-full xl:bg-transparent gap-y-6 overflow-hidden text-sm font-bold xl:font-semibold xl:flex-row xl:w-max xl:gap-x-8 xl:h-max xl:pb-0 transition-all duration-150 text-center xl:text-left  xl:text-[13px] xl:normal-case`}
+          }flex flex-col  w-full xl:bg-transparent gap-y-6 overflow-hidden text-sm font-bold xl:font-semibold xl:flex-row xl:w-max xl:gap-x-8 xl:h-max xl:pb-0 transition-all duration-150 text-center xl:text-left  xl:text-[13px] xl:normal-case`}
         >
           <Link
             className="cursor-pointer uppercase hover:text-secondary"

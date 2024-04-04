@@ -16,7 +16,7 @@
 }
 
 body {
-  @apply bg-bgColor text-white;
+  @apply bg-bgColor text-white h-full;
 }
 
 .max-width {
@@ -30,21 +30,29 @@ body {
 .arrow-icon {
   @apply hidden object-contain w-[70px] cursor-pointer xl:block lg:block ml-2;
 }
+.arrow-long-icon {
+  @apply hidden object-contain w-[150px] cursor-pointer xl:block lg:block ml-2;
+}
 
 .arrow-hover {
-  @apply transform -translate-y-0 right-0 hover:-translate-x-[20%] transition-transform duration-300;
+  @apply transform -translate-y-0 right-0 hover:-translate-x-[10%] transition-transform duration-500;
 }
 
 .button-gradient {
   @apply rounded-full bg-gradient-to-r from-secondary to-light text-bgColor font-bold px-10 my-7 py-4 w-full lg:w-56 xl:w-56;
 }
 
-.image-hero {
-  @apply w-full  rounded-[90px] rounded-bl-[200px] border-[15px] border-black border-opacity-20;
+.button-hover {
+  @apply hover:text-white/55;
 }
 
 .gradient-circle {
-  @apply bg-gradient-radial w-full h-full;
+  @apply bg-gradient-radial w-full;
+}
+
+/* Hero Section  */
+.image-hero {
+  @apply w-full  rounded-[90px] rounded-bl-[200px] border-[15px] border-black border-opacity-20;
 }
 
 .feature-image {
@@ -53,4 +61,53 @@ body {
 
 .line {
   @apply h-[65px] bg-light p-[1px] opacity-25;
+}
+
+/* Feature Mobile styles */
+
+.slider-main-container {
+  @apply relative rounded-full p-7 mt-10;
+}
+
+swiper-slide {
+  @apply w-full h-full flex items-center mx-5 gap-3;
+}
+
+.nav-btn {
+  @apply absolute z-20 select-none bg-light bg-opacity-30 cursor-pointer p-1  rounded-full transition duration-500 ease-in-out;
+}
+
+.nav-btn:hover {
+  @apply bg-secondary;
+}
+
+.nav-btn.custom-prev-button {
+  top: 30%;
+  left: 1em;
+}
+
+.nav-btn.custom-next-button {
+  right: 1em;
+  top: 30%;
+}
+
+.feature-image-mobile {
+  @apply w-[40px] items-center;
+}
+
+/* About Section  */
+.about-image {
+  @apply flex-1 xl:w-[400px] lg:w-[400px] w-full rounded-[50px] rounded-tl-[200px] rounded-br-[200px];
+}
+
+.h1-style {
+  @apply text-4xl uppercase font-bold opacity-80;
+}
+
+.h2-style {
+  @apply text-3xl mx-auto pr-5 xl:mx-0 lg:mx-0 uppercase  font-extralight opacity-80;
+}
+
+.p-style {
+  @apply text-sm text-light leading-6;
 }

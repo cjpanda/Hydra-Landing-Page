@@ -6,7 +6,7 @@ const Feature = () => {
   return (
     <section>
       {/* Icon Container */}
-      <div className="gradient-circle shadow-sm flex mt-16  w-full justify-between p-10 rounded-full">
+      <div className="gradient-circle shadow-sm flex mt-16  w-full justify-between p-10 rounded-full ">
         {/* Icon 1 */}
         <div className="flex items-center gap-3 ">
           <img src={location} alt="location" className="feature-image" />
