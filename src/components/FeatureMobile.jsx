@@ -20,20 +20,26 @@ const FeatureMobile = () => {
         }}
       >
         <swiper-slide>
-          <img src={location} alt="" className="feature-image-mobile" />
-          <p className="text-md text-light">
-            Union St, Seattle, WA 98101, United States
-          </p>
+          <div className="swiper-slider">
+            <img src={location} alt="" className="feature-image-mobile" />
+            <p className="text-md text-light">
+              Union St, Seattle, WA 98101, United States
+            </p>
+          </div>
         </swiper-slide>
 
         <swiper-slide>
-          <img src={phone} alt="" className="feature-image-mobile" />
-          <p className="text-md text-light">(110) 1111-1010</p>
+          <div className="swiper-slider">
+            <img src={phone} alt="" className="feature-image-mobile" />
+            <p className="text-md text-light">(110) 1111-1010</p>
+          </div>
         </swiper-slide>
 
-        <swiper-slide>
-          <img src={message} alt="" className="feature-image-mobile" />
-          <p className="text-md text-light">Contact@HydraVTech.com</p>
+        <swiper-slide className="swiper-slider">
+          <div className="swiper-slider">
+            <img src={message} alt="" className="feature-image-mobile" />
+            <p className="text-md text-light">Contact@HydraVTech.com</p>
+          </div>
         </swiper-slide>
 
         {/* Navigations */}

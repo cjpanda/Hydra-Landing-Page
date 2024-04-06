@@ -50,6 +50,42 @@ body {
   @apply bg-gradient-radial w-full;
 }
 
+/* Swiper Styles */
+.swiper-slider {
+  @apply w-full h-full flex items-center mx-5 gap-3;
+}
+
+.nav-btn {
+  @apply absolute z-20 select-none bg-light bg-opacity-30 cursor-pointer p-1  rounded-full transition duration-500 ease-in-out;
+}
+
+.nav-btn:hover {
+  @apply bg-secondary;
+}
+
+.nav-btn-service {
+  @apply absolute z-20 select-none bg-gradient-to-br from-secondary to-light text-bgColor cursor-pointer p-3 rounded-full transition duration-500 ease-in-out;
+}
+
+.nav-btn-service.custom-next-button {
+  top: 40%;
+  left: 25em;
+}
+.nav-btn-service.custom-prev-button {
+  top: 40%;
+  left: 0.1em;
+}
+
+.nav-btn.custom-prev-button {
+  top: 30%;
+  left: 1em;
+}
+
+.nav-btn.custom-next-button {
+  right: 1em;
+  top: 30%;
+}
+
 /* Hero Section  */
 .image-hero {
   @apply w-full  rounded-[90px] rounded-bl-[200px] border-[15px] border-black border-opacity-20;
@@ -67,28 +103,6 @@ body {
 
 .slider-main-container {
   @apply relative rounded-full p-7 mt-10;
-}
-
-swiper-slide {
-  @apply w-full h-full flex items-center mx-5 gap-3;
-}
-
-.nav-btn {
-  @apply absolute z-20 select-none bg-light bg-opacity-30 cursor-pointer p-1  rounded-full transition duration-500 ease-in-out;
-}
-
-.nav-btn:hover {
-  @apply bg-secondary;
-}
-
-.nav-btn.custom-prev-button {
-  top: 30%;
-  left: 1em;
-}
-
-.nav-btn.custom-next-button {
-  right: 1em;
-  top: 30%;
 }
 
 .feature-image-mobile {
@@ -110,4 +124,21 @@ swiper-slide {
 
 .p-style {
   @apply text-sm text-light leading-6;
+}
+
+/* Services Styles */
+.services-h2 {
+  @apply text-2xl font-bold uppercase;
+}
+
+.services-image {
+  @apply object-contain rounded-full border-[10px] border-black/20 border-opacity-25;
+}
+
+.service-slide-image {
+  @apply object-contain;
+}
+
+.line-card {
+  @apply p-[0.5px] bg-secondary my-5 w-[60%] mx-auto opacity-50;
 }

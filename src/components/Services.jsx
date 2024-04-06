@@ -8,7 +8,7 @@ const Services = () => {
 
   return (
     <>
-      <section className="max-width padding-x" id="services">
+      <section className="max-width padding-x mx-auto" id="services">
         <div className="flex flex-col xl:flex-row lg:flex-row items-center xl:text-left justify-between pb-20">
           {/* Text  */}
           <div>
