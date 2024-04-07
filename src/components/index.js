@@ -10,6 +10,8 @@ import Howto from "./Howto";
 import ServiceCard from "./ServiceCard";
 import ServiceCardMobile from "./ServiceCardMobile";
 import FeatureMobile from "./FeatureMobile";
+import TechnologiesMobile from "./TechnologiesMobile";
+import HowtoMobile from "./HowtoMobile";
 
 export {
   Hero,
@@ -24,4 +26,6 @@ export {
   ServiceCard,
   ServiceCardMobile,
   FeatureMobile,
+  TechnologiesMobile,
+  HowtoMobile,
 };

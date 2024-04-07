@@ -15,7 +15,7 @@ const FeatureMobile = () => {
         autoplay-disable-on-interaction="false"
         center-slides="true"
         style={{
-          "--swiper-pagination-color": "#fff",
+          "--swiper-pagination-color": "#8176af",
           "--swiper-pagination-bullet-size": "8px",
         }}
       >

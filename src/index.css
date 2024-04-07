@@ -24,7 +24,7 @@ body {
 }
 
 .padding-x {
-  @apply px-5 xl:px-10 md:px-10 lg:px-10;
+  @apply px-8 xl:px-10 md:px-10 lg:px-10;
 }
 
 .arrow-icon {
@@ -47,7 +47,7 @@ body {
 }
 
 .gradient-circle {
-  @apply bg-gradient-radial w-full;
+  @apply bg-gradient-radial;
 }
 
 /* Swiper Styles */
@@ -61,19 +61,6 @@ body {
 
 .nav-btn:hover {
   @apply bg-secondary;
-}
-
-.nav-btn-service {
-  @apply absolute z-20 select-none bg-gradient-to-br from-secondary to-light text-bgColor cursor-pointer p-3 rounded-full transition duration-500 ease-in-out;
-}
-
-.nav-btn-service.custom-next-button {
-  top: 40%;
-  left: 25em;
-}
-.nav-btn-service.custom-prev-button {
-  top: 40%;
-  left: 0.1em;
 }
 
 .nav-btn.custom-prev-button {
@@ -115,11 +102,11 @@ body {
 }
 
 .h1-style {
-  @apply text-4xl uppercase font-bold opacity-80;
+  @apply text-2xl xl:text-4xl lg:text-3xl  mx-auto xl:mx-0 lg:mx-0  uppercase font-bold opacity-80;
 }
 
 .h2-style {
-  @apply text-3xl mx-auto pr-5 xl:mx-0 lg:mx-0 uppercase  font-extralight opacity-80;
+  @apply text-3xl xl:text-3xl lg:text-3xl pr-5 mx-auto xl:mx-0 lg:mx-0 uppercase  font-extralight opacity-80;
 }
 
 .p-style {
@@ -135,10 +122,79 @@ body {
   @apply object-contain rounded-full border-[10px] border-black/20 border-opacity-25;
 }
 
-.service-slide-image {
+.service-button-image {
   @apply object-contain;
+}
+
+.nav-btn-service {
+  @apply absolute z-20 select-none bg-gradient-to-br from-secondary to-light text-bgColor border-4 border-black border-opacity-50 cursor-pointer p-3 rounded-full transition duration-500 ease-in-out;
+}
+
+.nav-btn-service:hover {
+  @apply text-light;
+}
+
+.nav-btn-service.custom-prev-button {
+  top: 40%;
+  left: 0.1em;
+}
+
+.nav-btn-service.custom-next-button {
+  top: 40%;
+  right: 0.1em;
 }
 
 .line-card {
   @apply p-[0.5px] bg-secondary my-5 w-[60%] mx-auto opacity-50;
+}
+
+/* Technologies Styles */
+
+.technologies-image-bg {
+  background: url("./assets/technologies.png");
+  object-fit: cover;
+}
+
+.technologies-image {
+  @apply w-[200px]  object-contain mx-auto;
+}
+
+.circle-gradient {
+  @apply bg-gradient-to-br from-secondary to-light text-bgColor  items-center rounded-full transition duration-500 ease-in-out;
+}
+
+.nav-btn-technologies {
+  @apply absolute z-20 p-3 border-4 border-black/50;
+}
+
+.nav-btn-technologies.prev-button {
+  top: 45%;
+  left: 1em;
+}
+
+.nav-btn-technologies.next-button {
+  top: 45%;
+  right: 1em;
+}
+
+/* How To Styles */
+
+.how-to {
+  @apply flex flex-col items-center justify-center;
+}
+
+.how-to-number {
+  @apply text-6xl  font-bold bg-secondary text-bgColor border-[15px] border-black border-opacity-50 rounded-[50%] mx-auto p-10;
+}
+
+.arrow-text-container {
+  @apply flex justify-center mt-10;
+}
+
+.howto-arrow-image {
+  @apply w-[50px] object-contain relative bottom-3;
+}
+
+.howto-text {
+  @apply font-semibold text-base text-white/80;
 }

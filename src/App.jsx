@@ -1,4 +1,11 @@
-import { Navbar, Hero, About, Services } from "./components/index";
+import {
+  Navbar,
+  Hero,
+  About,
+  Services,
+  Technologies,
+  Howto,
+} from "./components/index";
 
 function App() {
   return (
@@ -10,6 +17,8 @@ function App() {
 
       <About />
       <Services />
+      <Technologies />
+      <Howto />
     </>
   );
 }

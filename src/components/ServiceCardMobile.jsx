@@ -25,7 +25,7 @@ const ServiceCardMobile = () => {
             <img src={service1} alt="" className="services-image mx-auto" />
             <h2 className="services-h2 mt-5">Simulation</h2>
             <div className="line-card" />
-            <p className="p-style text-left">
+            <p className="p-style text-center">
               Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
               porttitor rhoncus libero justo laoreet sit amet vitae.
             </p>
@@ -40,7 +40,7 @@ const ServiceCardMobile = () => {
             <img src={service2} alt="" className="services-image mx-auto" />
             <h2 className="services-h2 mt-5">Education</h2>
             <div className="line-card" />
-            <p className="p-style text-left">
+            <p className="p-style text-center">
               Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
               porttitor rhoncus libero justo laoreet sit amet vitae.
             </p>
@@ -55,7 +55,7 @@ const ServiceCardMobile = () => {
             <img src={service3} alt="" className="services-image mx-auto" />
             <h2 className="services-h2 mt-5">self-care</h2>
             <div className="line-card" />
-            <p className="p-style text-left">
+            <p className="p-style text-center">
               Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
               porttitor rhoncus libero justo laoreet sit amet vitae.
             </p>
@@ -70,7 +70,7 @@ const ServiceCardMobile = () => {
             <img src={service4} alt="" className="services-image mx-auto" />
             <h2 className="services-h2 mt-5">outdoor</h2>
             <div className="line-card" />
-            <p className="p-style text-left">
+            <p className="p-style text-center">
               Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
               porttitor rhoncus libero justo laoreet sit amet vitae.
             </p>
@@ -83,7 +83,7 @@ const ServiceCardMobile = () => {
         {/* Navigations */}
       </swiper-container>
       <div className="nav-btn-service custom-prev-button">
-        <FaChevronLeft className=" service-button-image text-lg" />
+        <FaChevronLeft className="service-button-image text-lg" />
       </div>
 
       <div className="nav-btn-service custom-next-button">
