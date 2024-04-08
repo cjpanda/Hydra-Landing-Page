@@ -5,6 +5,7 @@ import {
   Services,
   Technologies,
   Howto,
+  ContactUs,
 } from "./components/index";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Services />
       <Technologies />
       <Howto />
+      <ContactUs />
     </>
   );
 }

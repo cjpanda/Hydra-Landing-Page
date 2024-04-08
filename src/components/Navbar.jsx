@@ -75,6 +75,7 @@ const Navbar = () => {
             activeClass="active"
             smooth={desktopMode}
             spy={true}
+            onClick={() => setNav(!nav)}
           >
             About
           </Link>
@@ -84,6 +85,7 @@ const Navbar = () => {
             activeClass="active"
             smooth={desktopMode}
             spy={true}
+            onClick={() => setNav(!nav)}
           >
             Services
           </Link>
@@ -93,6 +95,7 @@ const Navbar = () => {
             activeClass="active"
             smooth={desktopMode}
             spy={true}
+            onClick={() => setNav(!nav)}
           >
             Technologies
           </Link>
@@ -102,15 +105,27 @@ const Navbar = () => {
             activeClass="active"
             smooth={desktopMode}
             spy={true}
+            onClick={() => setNav(!nav)}
           >
             How To
           </Link>
           <div className="xl:hidden flex flex-col ">
             <div className="flex flex-col w-80 mx-auto  gap-5 font-semibold">
-              <button className="border-2  bg-gradient-linear uppercase px-8 py-4 rounded-full text-sm hover:border-secondary hover:text-secondary">
+              <Link
+                className="border-2 cursor-pointer bg-gradient-linear uppercase px-8 py-4 rounded-full text-sm hover:border-secondary hover:text-secondary"
+                to="contactus"
+                activeClass="active"
+                smooth={desktopMode}
+                spy={true}
+                onClick={() => setNav(!nav)}
+              >
                 Contact Us
-              </button>
-              <button className="bg-gradient-to-r from-secondary to-light uppercase text-sm px-8 py-4 rounded-full text-bgColor hover:text-white">
+              </Link>
+
+              <button
+                className="bg-gradient-to-r from-secondary to-light uppercase text-sm px-8 py-4 rounded-full text-bgColor hover:text-white"
+                onClick={() => setNav(!nav)}
+              >
                 Join Hydra
               </button>
             </div>
@@ -118,9 +133,15 @@ const Navbar = () => {
         </nav>
         <div className="hidden sm:hidden md:hidden lg:hidden xl:block">
           <div className="flex gap-10 w-full font-semibold">
-            <button className="border-2  bg-gradient-linear uppercase px-8 py-4 rounded-full text-sm hover:border-secondary hover:text-secondary">
+            <Link
+              className="border-2 cursor-pointer bg-gradient-linear uppercase px-8 py-4 rounded-full text-sm hover:border-secondary hover:text-secondary"
+              to="contactus"
+              activeClass="active"
+              smooth={desktopMode}
+              spy={true}
+            >
               Contact Us
-            </button>
+            </Link>
             <button className="bg-gradient-to-r from-secondary to-light uppercase text-sm px-8 py-4 rounded-full text-bgColor hover:text-white ">
               Join Hydra
             </button>

@@ -1,6 +1,10 @@
 import { useMediaQuery } from "react-responsive";
 import arrowLong from "../assets/arrow-long.png";
 import arrowRight from "../assets/arrowRight.png";
+import one from "../assets/one.png";
+import two from "../assets/two.png";
+import three from "../assets/three.png";
+import four from "../assets/four.png";
 import HowtoMobile from "./HowtoMobile";
 
 const Howto = () => {
@@ -35,12 +39,14 @@ const Howto = () => {
       <section className="mx-auto justify-center mt-20 hidden xl:block lg:block md:block ">
         <div className="mx-auto gap-10  grid grid-cols-2 xl:grid-cols-4 ">
           <div className="how-to">
-            <h1 className="how-to-number ">01</h1>
+            <div className="how-to-number-container">
+              <img src={one} alt="" className="how-to-image" />
+            </div>
             <div className="arrow-text-container">
               <img
                 src={arrowRight}
                 alt="arrow-right"
-                className="howto-arrow-image"
+                className="howto-arrow-image howto-arrow-icon arrow-hover"
               />
               <p className="howto-text">
                 3D Conception
@@ -49,12 +55,14 @@ const Howto = () => {
             </div>
           </div>
           <div className="how-to ">
-            <h1 className="how-to-number">02</h1>
+            <div className="how-to-number-container">
+              <img src={two} alt="" className="how-to-image" />
+            </div>
             <div className="arrow-text-container">
               <img
                 src={arrowRight}
                 alt="arrow-right"
-                className="howto-arrow-image"
+                className="howto-arrow-image howto-arrow-icon arrow-hover"
               />
               <p className="howto-text">
                 Interaction
@@ -63,12 +71,14 @@ const Howto = () => {
             </div>
           </div>
           <div className="how-to">
-            <h1 className="how-to-number ">03</h1>
+            <div className="how-to-number-container">
+              <img src={three} alt="" className="how-to-image" />
+            </div>
             <div className="arrow-text-container">
               <img
                 src={arrowRight}
                 alt="arrow-right"
-                className="howto-arrow-image"
+                className="howto-arrow-image howto-arrow-icon arrow-hover"
               />
               <p className="howto-text">
                 VR World
@@ -77,12 +87,14 @@ const Howto = () => {
             </div>
           </div>
           <div className="how-to">
-            <h1 className="how-to-number">04</h1>
+            <div className="how-to-number-container">
+              <img src={four} alt="" className="how-to-image" />
+            </div>
             <div className="arrow-text-container">
               <img
                 src={arrowRight}
                 alt="arrow-right"
-                className="howto-arrow-image"
+                className="howto-arrow-image howto-arrow-icon arrow-hover"
               />
               <p className="howto-text">
                 Hydra VR
