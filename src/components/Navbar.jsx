@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <header
       className={`${
-        header ? "bg-bgColor py-5" : "bg-bgColor py-10"
+        header ? "bg-bgColor py-5" : "bg-bgColor py-5"
       } fixed z-50 w-full transition-all duration-300`}
     >
       <div className="xl:container mx-auto flex flex-col xl:flex-row xl:items-center xl:justify-between">

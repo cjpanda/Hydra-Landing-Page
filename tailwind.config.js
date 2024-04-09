@@ -23,6 +23,7 @@ export default {
       backgroundImage: {
         "gradient-radial":
           "radial-gradient(circle, rgba(58, 52, 86, 1) 34%, rgba(33, 30, 46, 1) 63%)",
+        "body-bg": "url('/Vector.png')",
       },
     },
   },

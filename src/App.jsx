@@ -6,6 +6,7 @@ import {
   Technologies,
   Howto,
   ContactUs,
+  Footer,
 } from "./components/index";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Technologies />
       <Howto />
       <ContactUs />
+      <Footer />
     </>
   );
 }

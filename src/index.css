@@ -262,3 +262,29 @@ body {
 .line-contact {
   @apply w-[20%] p-[0.5px] bg-gradient-to-br from-secondary to-light my-5 opacity-50;
 }
+
+/* Footer Section Styles */
+
+.footer-hide {
+  @apply hidden md:block xl:block lg:block;
+}
+
+.footer-line {
+  @apply mx-auto;
+}
+
+.footer-section {
+  @apply text-white/80 uppercase font-semibold flex flex-col gap-5;
+}
+
+.footer-logo {
+  @apply w-[140px] object-contain mx-auto;
+}
+
+.full-line {
+  @apply w-full p-[.5px] my-10 opacity-50 bg-secondary;
+}
+
+.footer-credit {
+  @apply text-center py-10 text-light uppercase font-semibold text-xs;
+}
