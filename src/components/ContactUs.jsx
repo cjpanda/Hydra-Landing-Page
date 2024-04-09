@@ -117,7 +117,6 @@ const ContactUs = () => {
                   validateInput(e.target);
                 }}
                 placeholder="First Name"
-                required
                 className="form-input "
               />
               {errorMessage.firstName && (
@@ -137,7 +136,6 @@ const ContactUs = () => {
                   validateInput(e.target);
                 }}
                 placeholder="Last Name"
-                required
                 className="form-input"
               />
               {errorMessage.lastName && (
@@ -159,7 +157,6 @@ const ContactUs = () => {
                   validateInput(e.target);
                 }}
                 placeholder="Email"
-                required
                 className="form-input"
               />
               {errorMessage.email && (
@@ -179,7 +176,6 @@ const ContactUs = () => {
                   validateInput(e.target);
                 }}
                 placeholder="Phone Number (+1)"
-                required
                 className="form-input"
               />
               {errorMessage.phoneNumber && (
@@ -201,7 +197,6 @@ const ContactUs = () => {
                   validateInput(e.target);
                 }}
                 placeholder="Subject"
-                required
                 className="subject-field"
               />
               {errorMessage.subject && (
@@ -222,7 +217,6 @@ const ContactUs = () => {
               }}
               rows="10"
               placeholder="Tell Us Something"
-              required
               className="text-area"
             />
             {errorMessage.textArea && (
