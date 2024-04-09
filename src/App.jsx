@@ -12,17 +12,19 @@ import {
 function App() {
   return (
     <>
+      <Navbar />
       <section>
-        <Navbar />
         <Hero />
       </section>
 
-      <About />
-      <Services />
-      <Technologies />
-      <Howto />
-      <ContactUs />
-      <Footer />
+      <section className="xl:bg-body-background bg-cover bg-no-repeat bg-center">
+        <About />
+        <Services />
+        <Technologies />
+        <Howto />
+        <ContactUs />
+        <Footer />
+      </section>
     </>
   );
 }

@@ -55,9 +55,9 @@ const Navbar = () => {
             className="cursor-pointer xl:hidden"
           >
             {nav ? (
-              <CgClose className="text-4xl text-light" />
+              <CgClose className="text-5xl text-light" />
             ) : (
-              <CgMenuRightAlt className="text-4xl text-light " />
+              <CgMenuRightAlt className="text-5xl text-light " />
             )}
           </div>
         </div>

@@ -8,9 +8,12 @@ const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 991 }); // md and sm
 
   return (
-    <section className="max-width padding-x pt-40" id="home">
+    <section
+      className="max-width padding-x pt-40 xl:bg-hero-bg  lg:bg-hero-bg md:bg-hero-mobile  bg-hero-mobile bg-cover bg-no-repeat bg-center"
+      id="home"
+    >
       {/* Hero Container */}
-      <div className="flex flex-col-reverse xl:flex-row sm:flex-col-reverse md:flex-col-reverse lg:flex-row w-full items-center justify-between gap-10">
+      <div className="hero-container">
         {/* Hero Text */}
         <div className="mx-auto text-center lg:text-left xl:text-left">
           <h1 className="xl:text-5xl text-4xl font-semibold ">
@@ -37,7 +40,7 @@ const Hero = () => {
         </div>
 
         {/* Hero Image */}
-        <div className="image-container">
+        <div className="image-container ">
           <img src={heroImage} alt="heroImage" className="image-hero" />
         </div>
       </div>

@@ -81,7 +81,11 @@ body {
 
 /* Hero Section  */
 .image-hero {
-  @apply w-full  rounded-[90px] rounded-bl-[200px] border-[15px] border-black border-opacity-20;
+  @apply w-[600px] xl:w-full lg:w-full md:w-full rounded-[90px] rounded-bl-[200px] border-[15px] border-black border-opacity-20;
+}
+
+.hero-container {
+  @apply flex flex-col-reverse xl:flex-row sm:flex-col-reverse md:flex-col-reverse lg:flex-row w-full items-center justify-between gap-10;
 }
 
 .feature-image {
@@ -105,6 +109,10 @@ body {
 /* About Section  */
 .about-image {
   @apply flex-1 xl:w-[400px] lg:w-[400px] w-full rounded-[50px] rounded-tl-[200px] rounded-br-[200px];
+}
+
+.about-section {
+  @apply flex flex-col xl:flex-row lg:flex-row items-center xl:text-left justify-between gap-5;
 }
 
 .h1-style {
@@ -286,5 +294,5 @@ body {
 }
 
 .footer-credit {
-  @apply text-center py-10 text-light uppercase font-semibold text-xs;
+  @apply text-center py-10 text-light uppercase font-semibold text-xs tracking-wider;
 }

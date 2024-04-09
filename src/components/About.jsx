@@ -29,7 +29,7 @@ const About = () => {
       </section>
 
       {/* Image and Text Section  */}
-      <section className="flex flex-col xl:flex-row lg:flex-row items-center xl:text-left justify-between gap-5">
+      <section className="about-section ">
         {/* Image */}
         <div>
           <img src={aboutImage} alt="about-image" className="about-image" />

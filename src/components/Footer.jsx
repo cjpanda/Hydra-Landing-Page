@@ -61,8 +61,8 @@ const Footer = () => {
       <div className="full-line" />
       <div>
         <p className="footer-credit">
-          2024 &copy; Hydra landing page - By -Zine.E Falouti- Developed by
-          ceejaydevlab - All Rights Reserved
+          2024 &copy; Hydra landing page - UI Design By -Zine.E Falouti-
+          Developed by ceejaydevlab - All Rights Reserved
         </p>
       </div>
     </section>
