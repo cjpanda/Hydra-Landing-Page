@@ -1,8 +1,5 @@
-# React + Vite
+# React + Vite  Hydra Landing Page 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Site: https://hydra-landing-page-green.vercel.app/
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![screencapture-hydra-landing-page-green-vercel-app-2024-04-10-01_02_46](https://github.com/cjpanda/Hydra-Landing-Page/assets/107156444/65dfb3d5-3098-45a5-8c78-b6da1b24efe5)
