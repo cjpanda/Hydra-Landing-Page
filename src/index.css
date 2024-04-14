@@ -30,7 +30,7 @@ body {
 }
 
 .padding-x {
-  @apply px-8 xl:px-10 md:px-10 lg:px-10;
+  @apply px-5 xl:px-10 md:px-5 lg:px-10;
 }
 
 .arrow-icon {
@@ -233,7 +233,7 @@ body {
 /* Form Styles  */
 
 .form-field {
-  @apply mx-auto flex flex-col gap-5 pt-5;
+  @apply w-full mx-auto flex flex-col gap-5 pt-5;
 }
 
 .form-input-container {
@@ -241,7 +241,7 @@ body {
 }
 
 .form-input {
-  @apply w-full xl:w-[500px] lg:w-[350px] md:w-[600px] p-3 pl-5 py-3 rounded-full bg-transparent border-2 border-light;
+  @apply w-full xl:w-[550px] lg:w-[350px] md:w-[600px] p-3 pl-5 py-3 rounded-full bg-transparent border-2 border-light;
 }
 .form-input:focus {
   @apply outline-none;
